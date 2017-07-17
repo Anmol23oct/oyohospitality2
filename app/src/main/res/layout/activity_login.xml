@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.anmolsharma.oyohospitality.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="344dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="300dp"
+            app:srcCompat="@drawable/add_btn1" />
+
+        <EditText
+            android:id="@+id/emailedit21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:ems="10"
+            android:hint="Enter Registered Email here"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/cardview_dark_background" />
+
+        <EditText
+            android:id="@+id/passedit21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="340dp"
+            android:ems="10"
+            android:hint="Enter Registered Password here"
+            android:inputType="textPassword"
+            android:textColor="@color/cardview_dark_background" />
+
+        <Button
+            android:id="@+id/donebutton21"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/rectangle"
+            android:onClick="done21"
+            android:text="Done"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/forget21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="470dp"
+            android:text="Forgot Password"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

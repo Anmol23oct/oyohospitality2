@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anmolsharma.oyohospitality">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Secondpage"
+            android:label="@string/title_activity_secondpage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Registeremployee"
+            android:label="@string/title_activity_registeremployee"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Homeemplyenew"
+            android:label="@string/title_activity_homeemplyenew"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HomeForEmployees"
+            android:label="@string/title_activity_home_for_employees"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Updateprofile"
+            android:label="@string/title_activity_updateprofile"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Registeremployer"
+            android:label="@string/title_activity_registeremployer"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HomeForEmployer"
+            android:label="@string/title_activity_home_for_employer"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".UpdateProfileEmployer"
+            android:label="@string/title_activity_update_profile_employer"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Tab1PostActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Tab2PostActivity" />
+        <activity android:name=".Tab3PostActivity" />
+        <activity android:name=".Tab4PostActivity"></activity>
+    </application>
+
+</manifest>

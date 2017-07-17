@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">oyohospitality</string>
+    <string name="title_activity_secondpage">Secondpage</string>
+    <string name="title_activity_registeremployee">Registeremployee</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_homeemployees">Homeemployees</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_homeemplyenew">Homeemplyenew</string>
+    <string name="title_activity_home_employees">HomeEmployees</string>
+    <string name="title_activity_home_for_employees">HomeForEmployees</string>
+    <string name="title_activity_updateprofile">Updateprofile</string>
+    <string name="title_activity_registeremployer">Registeremployer</string>
+    <string name="title_activity_home_for_employer">HomeForEmployer</string>
+    <string name="title_activity_update_profile_employer">UpdateProfileEmployer</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "219802266757",
+    "firebase_url": "https://oyohospitality-c0d27.firebaseio.com",
+    "project_id": "oyohospitality-c0d27",
+    "storage_bucket": "oyohospitality-c0d27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219802266757:android:4588d7f8eff3054a",
+        "android_client_info": {
+          "package_name": "com.example.anmolsharma.oyohospitality"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219802266757-d7i7fhnedapbr7gih30u2rr11g1o7bb0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anmolsharma.oyohospitality",
+            "certificate_hash": "292c09b72f4151c755051e10ebe4a1f443612e72"
+          }
+        },
+        {
+          "client_id": "219802266757-c345qm0scdb3qeas3u5qcke91rpbvfk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFvFXYeKynKU_qLrPWSUktB5YEqtyfc54"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219802266757-c345qm0scdb3qeas3u5qcke91rpbvfk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

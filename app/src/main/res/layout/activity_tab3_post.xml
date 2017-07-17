@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anmolsharma.oyohospitality.Tab3PostActivity">
+
+    <RelativeLayout
+        android:layout_width="344dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteY="6dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+        <ImageButton
+            android:id="@+id/imageselect27"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="@color/cardview_light_background"
+            android:scaleType="fitXY"
+            android:src="@mipmap/add_btn" />
+
+        <ImageView
+            android:id="@+id/imageselectview27"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="fitXY"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="285dp">
+
+            <EditText
+                android:id="@+id/edittitle27"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/input_outline"
+                android:hint="Post Title....."
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editdescription27"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@drawable/input_outline"
+                android:gravity="top|left"
+                android:hint="Edit Description...."
+                android:inputType="textMultiLine"
+                android:lines="8"
+                android:maxLines="10"
+                android:minLines="6"
+                android:padding="10dp"
+                android:scrollbars="vertical"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:textSize="18sp"></EditText>
+
+            <EditText
+                android:id="@+id/editlink27"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_outline"
+                android:hint="Edit Link Here...."
+                android:padding="10dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:textSize="18sp"></EditText>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/rightbuttonposttitle27"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="290dp"
+            android:background="@drawable/rightbutton"
+            android:gravity="center"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/donebutton27"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="285dp"
+            android:background="@drawable/rectangle"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/donebutton027"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="285dp"
+            android:background="@drawable/rectangle"
+            android:text="Submit All"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:visibility="invisible"/>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

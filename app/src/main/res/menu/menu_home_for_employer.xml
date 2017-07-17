@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.anmolsharma.oyohospitality.HomeForEmployer">
+    <item android:id="@+id/action_add"
+        android:icon="@mipmap/ic_account_circle_black_24dp"
+        android:title="Update Profile"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_add1"
+        android:icon="@mipmap/ic_account_circle_black_24dp"
+        android:title="Professions Uploaded"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_add2"
+        android:icon="@mipmap/ic_account_circle_black_24dp"
+        android:title="Referral Code"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_add3"
+        android:icon="@mipmap/ic_account_circle_black_24dp"
+        android:title="Give Referral Code"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_add4"
+        android:icon="@mipmap/ic_account_circle_black_24dp"
+        android:title="Sign out"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_add5"
+        android:icon="@mipmap/ic_add_black_24dp"
+        android:title="Add Professions"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@mipmap/ic_search_black_24dp"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+
+
+</menu>
